@@ -14,6 +14,6 @@ public class SumCalculator {
         if (res < 0) {
             throw new IllegalArgumentException("Input " + n + " too big");
         }
-        return res;
+        return -1;
     }
 }
